@@ -4,7 +4,7 @@
   "version": 1,
   "author": "YangminG丶",
   "supportUri": "",
-  "updateUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5",
+  "updateUrl": "https://github.com/Ym-wei/GKD/blob/main/ym.json5",
   "apps": [
     {
       id: 'cn.xiaochuankeji.zuiyouLite',
