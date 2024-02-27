@@ -1,0 +1,95 @@
+{
+  "id": 1130,
+  "name": "杨明的GKD订阅",
+  "version": 1,
+  "author": "YangminG丶",
+  "supportUri": "",
+  "updateUrl": "https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5",
+  "apps": [
+    {
+      id: 'cn.xiaochuankeji.zuiyouLite',
+      name: '皮皮搞笑',
+      groups: [
+        {
+          name: '跳过开屏广告双重检测1',
+          key: 0,
+          enable: true,
+          quickFind: false,
+          snapshotUrls: [
+            'https://i.gkd.li/snapshot/1708955039598'
+          ],
+          rules: [
+            {
+              matches: [
+                '[id="com.byted.pangle:id/tt_splash_skip_btn"]'
+              ]
+            }
+          ]
+        },
+        {
+          name: '跳过开屏广告双重检测2',
+          key: 1,
+          enable: true,
+          quickFind: false,
+          snapshotUrls: [
+            'https://i.gkd.li/snapshot/1708955435902'
+          ],
+          rules: [
+            {
+              matches: [
+                '@LinearLayout[clickable=false] > [text="跳过 "]'
+              ]
+            }
+          ]
+        },
+        {
+          enable: true,
+          key: 3,
+          name: '每日自动签到',
+          desc: '需要点击每日抽奖',
+          rules: [
+            {
+              key: 1,
+              name: '点击立即签到',
+              matches: 'TextView[text="立即签到"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709000517614'
+            },
+            {
+              key: 2,
+              preKeys: 1,
+              name: '点击返回',
+              matches: '[id="cn.xiaochuankeji.zuiyouLite:id/back"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709000517614'
+            },
+            {
+              key: 3,
+              preKeys: 2,
+              name: '点击主页',
+              matches: '[id="cn.xiaochuankeji.zuiyouLite:id/home"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1708999265662'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: 'com.xiaomi.smarthome',
+      name: '米家',
+      groups: [
+        {
+          key: 1,
+          name: '自动点击看娃视频',
+          rules: [
+            {
+              quickFind: true,
+              activityIds: 'com.xiaomi.smarthome.SmartHomeMainActivity',
+              matches: '[id="com.xiaomi.smarthome:id/af3"][text="看娃"][visibleToUser=true] + [id="com.xiaomi.smarthome:id/alj"] > [id="com.xiaomi.smarthome:id/ali"]',
+              exampleUrls: 'https://m.gkd.li/81805625/50995a63-ded4-42fc-a642-8c35206e8dd4',
+              snapshotUrls: 'https://i.gkd.li/i/14413607'
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
