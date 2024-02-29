@@ -1,6 +1,6 @@
 {
   "id": 1130,
-  version: 1,
+  version: 2,
   name: '杨明的GKD订阅',
   author: '杨明',
   supportUri: 'https://github.com/Ym-wei/GKD',
@@ -46,7 +46,7 @@
         {
           enable: true,
           key: 4,
-          name: '关闭滑动卡片',
+          name: '关闭小红包卡片',
           rules: [
             {
               key: 1,
