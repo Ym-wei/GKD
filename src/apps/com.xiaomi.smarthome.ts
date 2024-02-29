@@ -8,7 +8,7 @@ export default defineAppConfig({
       key: 1,
       enable: true,
       name: '功能类-自动点击看娃视频',
-      desc: '允许只有一个监控1',
+      desc: '允许只有一个监控2',
       rules: [
         {
           quickFind: true,
