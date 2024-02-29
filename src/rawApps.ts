@@ -23,13 +23,13 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
       )} `,
     );
   }
-  appConfig.groups?.forEach((g) => {
-    if (!g.name.startsWith('开屏广告')) {
-      g.enable = false;
-    } else {
-      g.order = OPEN_AD_ORDER;
-    }
-  });
+  // appConfig.groups?.forEach((g) => {
+  //   if (!g.name.startsWith('开屏广告')) {
+  //     g.enable = false;
+  //   } else {
+  //     g.order = OPEN_AD_ORDER;
+  //   }
+  // });
   rawApps.push(appConfig);
 }
 
