@@ -1,6 +1,6 @@
 {
   "id": 1130,
-  version: 2,
+  version: 3,
   name: '杨明的GKD订阅',
   author: '杨明',
   supportUri: 'https://github.com/Ym-wei/GKD',
@@ -73,6 +73,26 @@
               name: '点击关闭',
               matches: '[vid="post_activity_btn"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
               snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
+            },
+            {
+              key: 2,
+              preKeys: 1,
+              name: '点击不感兴趣',
+              matches: '[vid="feedback_general_text"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709189555602'
+            }
+          ]
+        },
+        {
+          enable: true,
+          key: 6,
+          name: '流动直播广告',
+          rules: [
+            {
+              key: 1,
+              name: '点击关闭',
+              matches: 'TextView[text^="去"] <<n [vid="post_holder_live_bottom_view"] -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"]  [vid="member_view_icon_right"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709205181942',
             },
             {
               key: 2,
