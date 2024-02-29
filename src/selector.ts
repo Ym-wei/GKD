@@ -18,7 +18,6 @@ const allowPropertyNames = new Set([
   'text.length',
   'desc',
   'desc.length',
-
   'clickable',
   'focusable',
   'checkable',
