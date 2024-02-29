@@ -1,10 +1,11 @@
 {
   "id": 1130,
-  "name": "杨明的GKD订阅",
-  "version": 1,
-  "author": "YangminG丶",
-  "supportUri": "",
-  "updateUrl": "https://github.com/Ym-wei/GKD/blob/main/ym.json5",
+  version: 2,
+  name: '杨明的GKD订阅',
+  author: '杨明',
+  supportUri: 'https://github.com/Ym-wei/GKD',
+  updateUrl: 'https://raw.githubusercontent.com/Ym-wei/GKD/main/ym.json5',
+  checkUpdateUrl: 'https://raw.githubusercontent.com/Ym-wei/GKD/main/ym_gkd.version.json',
   "apps": [
     {
       id: 'cn.xiaochuankeji.zuiyouLite',
@@ -73,7 +74,6 @@
               matches: '[vid="post_activity_btn"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
               snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
             },
-
             {
               key: 2,
               preKeys: 1,
