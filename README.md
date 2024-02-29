@@ -12,7 +12,7 @@
 https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/ym.json5
 ```
 
-当前版本: v8
+当前版本: v9
 
 当前订阅文件已适配 2 个 APP, 共有 6 规则组
 
@@ -30,7 +30,7 @@ https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/ym.json5
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=8)
+![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=9)
 
 ## Star History
 

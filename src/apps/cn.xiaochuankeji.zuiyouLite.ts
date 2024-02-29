@@ -6,27 +6,23 @@ export default defineAppConfig({
   groups: [
     {
       name: '开屏广告',
-      desc: '跳过开屏广告双重检测1',
+      desc: '跳过开屏广告双重检测',
       key: 0,
       enable: true,
       quickFind: false,
-      snapshotUrls: ['https://i.gkd.li/snapshot/1708955039598'],
+      snapshotUrls: [],
       rules: [
         {
+          key: 1,
+          name: '关闭1',
           matches: ['[id="com.byted.pangle:id/tt_splash_skip_btn"]'],
+          snapshotUrls: 'https://i.gkd.li/snapshot/1708955039598',
         },
-      ],
-    },
-    {
-      name: '开屏广告',
-      desc: '跳过开屏广告双重检测2',
-      key: 1,
-      enable: true,
-      quickFind: false,
-      snapshotUrls: ['https://i.gkd.li/snapshot/1708955435902'],
-      rules: [
         {
+          key: 2,
+          name: '关闭2',
           matches: ['@LinearLayout[clickable=false] > [text="跳过 "]'],
+          snapshotUrls:'https://i.gkd.li/snapshot/1708955435902'
         },
       ],
     },
@@ -90,6 +86,26 @@ export default defineAppConfig({
           name: '点击不感兴趣',
           matches: '[vid="feedback_general_text"]',
           snapshotUrls: 'https://i.gkd.li/snapshot/1709189555602',
+        },
+      ],
+    },
+    {
+      enable: true,
+      key: 7,
+      name: '分段广告-商场',
+      rules: [
+        {
+          key: 1,
+          name: '点击关闭',
+          matches: '[vid="tedium"]',
+          snapshotUrls: "https://i.gkd.li/snapshot/1709216783100",
+        },
+        {
+          key: 2,
+            preKeys: 1,
+          name: '点击不感兴趣',
+          matches: '[vid="feedback_general_text"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1709216790063',
         },
       ],
     },
