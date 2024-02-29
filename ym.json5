@@ -44,32 +44,45 @@
         },
         {
           enable: true,
-          key: 3,
-          name: '每日自动签到',
-          desc: '需要点击每日抽奖',
+          key: 4,
+          name: '关闭滑动卡片',
           rules: [
             {
               key: 1,
-              name: '点击立即签到',
-              matches: 'TextView[text="立即签到"]',
-              snapshotUrls: 'https://i.gkd.li/snapshot/1709000517614'
+              name: '关闭弹窗',
+              matches: '[text*="看广告或直播"] + TextView[text="确定"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313'
             },
             {
               key: 2,
               preKeys: 1,
-              name: '点击返回',
-              matches: '[id="cn.xiaochuankeji.zuiyouLite:id/back"]',
-              snapshotUrls: 'https://i.gkd.li/snapshot/1709000517614'
-            },
-            {
-              key: 3,
-              preKeys: 2,
-              name: '点击主页',
-              matches: '[id="cn.xiaochuankeji.zuiyouLite:id/home"]',
-              snapshotUrls: 'https://i.gkd.li/snapshot/1708999265662'
+              name: '点击关闭',
+              matches: '[id="cn.xiaochuankeji.zuiyouLite:id/close"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313'
             }
           ]
-        }
+        },
+        {
+          enable: true,
+          key: 5,
+          name: '用户创建的游戏广告',
+          rules: [
+            {
+              key: 1,
+              name: '点击关闭',
+              matches: '[vid="post_activity_btn"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
+            },
+
+            {
+              key: 2,
+              preKeys: 1,
+              name: '点击不感兴趣',
+              matches: '[vid="feedback_general_text"]',
+              snapshotUrls: 'https://i.gkd.li/snapshot/1709189555602'
+            }
+          ]
+        },
       ]
     },
     {
@@ -79,17 +92,18 @@
         {
           key: 1,
           name: '自动点击看娃视频',
+          desc: "允许只有一个监控",
           rules: [
             {
               quickFind: true,
               activityIds: 'com.xiaomi.smarthome.SmartHomeMainActivity',
-              matches: '[id="com.xiaomi.smarthome:id/af3"][text="看娃"][visibleToUser=true] + [id="com.xiaomi.smarthome:id/alj"] > [id="com.xiaomi.smarthome:id/ali"]',
+              matches: '[id="com.xiaomi.smarthome:id/ali"][visibleToUser=true]',
               exampleUrls: 'https://m.gkd.li/81805625/50995a63-ded4-42fc-a642-8c35206e8dd4',
               snapshotUrls: 'https://i.gkd.li/i/14413607'
             }
           ]
         }
       ]
-    }
+    },
   ]
 }
