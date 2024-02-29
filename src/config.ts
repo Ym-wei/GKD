@@ -4,7 +4,7 @@ import type {RawSubscription} from './types';
 
 const subsConfig: RawSubscription = {
     id: 1130,
-    version: 3,
+    version: 0,
     name: '杨明的GKD订阅',
     author: '杨明',
     supportUri: 'https://github.com/Ym-wei/GKD',
