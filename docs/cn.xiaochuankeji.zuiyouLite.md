@@ -15,6 +15,7 @@
 
 - [快照-0](https://i.gkd.li/snapshot/1709104656313)
 - [快照-1](https://i.gkd.li/snapshot/1709104656313)
+- [快照-2](https://i.gkd.li/snapshot/1709104656313)
 
 ## 分段广告-流动游戏广告
 

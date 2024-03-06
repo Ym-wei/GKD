@@ -1,7 +1,7 @@
 {
   "name": "@ym/gkd_subscription",
   "type": "module",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "main": "./dist/ym.json5",
   "unpkg": "./dist/ym.json5",
   "jsdelivr": "./dist/ym.json5",

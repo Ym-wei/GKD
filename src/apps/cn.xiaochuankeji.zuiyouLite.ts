@@ -42,6 +42,13 @@ export default defineAppConfig({
           key: 2,
           preKeys: 1,
           name: '点击关闭',
+          matches: 'View[childCount=6] > TextView[text="确定"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313',
+        },
+        {
+          key: 3,
+          preKeys: 2,
+          name: '点击关闭',
           matches: '[id="cn.xiaochuankeji.zuiyouLite:id/close"]',
           snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313',
         },
