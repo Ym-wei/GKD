@@ -40,7 +40,7 @@ export default defineAppConfig({
           matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/splash_open_cover"]'],
           snapshotUrls:'https://i.gkd.li/i/14560728',
           position: {
-            top: 220,
+            top: 188,
             left: 1280
           }
         },
