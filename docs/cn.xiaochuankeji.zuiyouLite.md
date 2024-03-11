@@ -9,6 +9,7 @@
 - [快照-0](https://i.gkd.li/snapshot/1708955039598)
 - [快照-1](https://i.gkd.li/snapshot/1708955435902)
 - [快照-2](https://i.gkd.li/snapshot/1710152747264)
+- [快照-3](https://i.gkd.li/i/14560728)
 
 ## 功能类-关闭小红包卡片
 

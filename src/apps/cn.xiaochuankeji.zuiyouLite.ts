@@ -27,8 +27,18 @@ export default defineAppConfig({
         {
           key: 3,
           name: '关闭Position',
-          matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"][name="android.widget.ImageView"]'],
+          matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"]'],
           snapshotUrls:'https://i.gkd.li/snapshot/1710152747264',
+          position: {
+            top: 220,
+            left: 1280
+          }
+        },
+        {
+          key: 4,
+          name: '关闭Position4',
+          matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/splash_open_cover"]'],
+          snapshotUrls:'https://i.gkd.li/i/14560728',
           position: {
             top: 220,
             left: 1280
