@@ -26,7 +26,7 @@ export default defineAppConfig({
         },
         {
           key: 3,
-          name: '关闭3',
+          name: '关闭Position',
           matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"][name="android.widget.ImageView"]'],
           snapshotUrls:'https://i.gkd.li/snapshot/1710152747264',
           position: {
