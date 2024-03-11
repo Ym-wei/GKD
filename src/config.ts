@@ -8,9 +8,9 @@ const subsConfig: RawSubscription = {
     name: '杨明的GKD订阅',
     author: '杨明',
     supportUri: 'https://github.com/Ym-wei/GKD',
-    updateUrl: 'https://raw.githubusercontent.com/Ym-wei/GKD/main/dict/ym.json5',
+    updateUrl: 'https://raw.githubusercontent.com/Ym-wei/GKD/main/dist/ym.json5',
     checkUpdateUrl:
-        'https://raw.githubusercontent.com/Ym-wei/GKD/main/dict/ym.version.json',
+        'https://raw.githubusercontent.com/Ym-wei/GKD/main/dist/ym.version.json',
     globalGroups: [],
     categories,
     apps,

@@ -9,7 +9,7 @@
 在 GKD 内添加以下链接即可使用此规则
 
 ```txt
-https://raw.githubusercontent.com/Ym-wei/GKD/main/dict/ym.json5
+https://raw.githubusercontent.com/Ym-wei/GKD/main/dist/ym.json5
 ```
 
 当前版本: v--VERSION--
