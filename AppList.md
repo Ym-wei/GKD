@@ -6,3 +6,4 @@
 | 皮皮搞笑 | [cn.xiaochuankeji.zuiyouLite](/docs/cn.xiaochuankeji.zuiyouLite.md) | 5 |
 | 微信 | [com.tencent.mm](/docs/com.tencent.mm.md) | 1 |
 | 小红书 | [com.xingin.xhs](/docs/com.xingin.xhs.md) | 1 |
+| 掌上英雄联盟 | [com.tencent.qt.qtl](/docs/com.tencent.qt.qtl.md) | 1 |
