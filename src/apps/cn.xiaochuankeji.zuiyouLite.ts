@@ -26,12 +26,22 @@ export default defineAppConfig({
         },
         {
           key: 3,
-          name: '关闭Position',
+          name: '位置关闭1',
           matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"]'],
           snapshotUrls:'https://i.gkd.li/snapshot/1710152747264',
           position: {
             top: 220,
             left: 1280
+          }
+        },
+        {
+          key: 4,
+          name: '位置关闭2',
+          matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/controllerView"]'],
+          snapshotUrls:'https://i.gkd.li/snapshot/1710170678710',
+          position: {
+            top: 188,
+            left: 1300
           }
         }
       ],
