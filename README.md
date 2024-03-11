@@ -2,17 +2,17 @@
 
 ---
 
-由ym维护的GKD规则（**精力有限，随缘更新**）
+由ym维护的GKD规则
 
 **仅启用 `开屏广告` 一类规则，其它所有规则均需用户手动打开，您可以在规则类别里批量开启某一类规则**
 
 在 GKD 内添加以下链接即可使用此规则
 
 ```txt
-https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/ym.json5
+https://raw.githubusercontent.com/Ym-wei/GKD/main/dict/ym.json5
 ```
 
-当前版本: v13
+当前版本: v14
 
 当前订阅文件已适配 5 个 APP, 共有 9 规则组
 
@@ -30,4 +30,4 @@ https://raw.gitmirror.com/AIsouler/GKD_subscription/main/dist/ym.json5
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=13)
+![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=14)

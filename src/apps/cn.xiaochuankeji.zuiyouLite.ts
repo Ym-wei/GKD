@@ -24,6 +24,16 @@ export default defineAppConfig({
           matches: ['@LinearLayout[clickable=false] > [text="跳过 "]'],
           snapshotUrls:'https://i.gkd.li/snapshot/1708955435902'
         },
+        {
+          key: 3,
+          name: '关闭3',
+          matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"][name="android.widget.ImageView"]'],
+          snapshotUrls:'https://i.gkd.li/snapshot/1710152747264',
+          position: {
+            top: 220,
+            left: 1280
+          }
+        },
       ],
     },
     {
