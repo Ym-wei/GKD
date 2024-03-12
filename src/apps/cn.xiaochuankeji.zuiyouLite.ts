@@ -28,7 +28,7 @@ export default defineAppConfig({
           key: 3,
           name: '位置关闭1',
           matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/animation_view"]'],
-          snapshotUrls:'https://i.gkd.li/snapshot/1710152747264',
+          snapshotUrls:'https://i.gkd.li/i/14557046',
           position: {
             top: 220,
             left: 1280
@@ -56,21 +56,21 @@ export default defineAppConfig({
           key: 1,
           name: '关闭弹窗',
           matches: '[text*="看广告或直播"] + TextView[text="确定"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313',
+          snapshotUrls: 'https://i.gkd.li/i/14430159',
         },
         {
           key: 2,
           preKeys: 1,
           name: '点击关闭',
           matches: 'View[childCount=6] > TextView[text="确定"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313',
+          snapshotUrls: 'https://i.gkd.li/i/14430159',
         },
         {
           key: 3,
           preKeys: 2,
           name: '点击关闭',
           matches: '[id="cn.xiaochuankeji.zuiyouLite:id/close"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1709104656313',
+          snapshotUrls: 'https://i.gkd.li/i/14430159',
         },
       ],
     },

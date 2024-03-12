@@ -8,16 +8,16 @@
 
 - [快照-0](https://i.gkd.li/snapshot/1708955039598)
 - [快照-1](https://i.gkd.li/snapshot/1708955435902)
-- [快照-2](https://i.gkd.li/snapshot/1710152747264)
+- [快照-2](https://i.gkd.li/i/14557046)
 - [快照-3](https://i.gkd.li/snapshot/1710170678710)
 
 ## 功能类-关闭小红包卡片
 
 关闭小红包卡片
 
-- [快照-0](https://i.gkd.li/snapshot/1709104656313)
-- [快照-1](https://i.gkd.li/snapshot/1709104656313)
-- [快照-2](https://i.gkd.li/snapshot/1709104656313)
+- [快照-0](https://i.gkd.li/i/14430159)
+- [快照-1](https://i.gkd.li/i/14430159)
+- [快照-2](https://i.gkd.li/i/14430159)
 
 ## 分段广告-流动游戏广告
 
