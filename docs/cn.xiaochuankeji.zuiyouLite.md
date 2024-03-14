@@ -6,10 +6,13 @@
 
 跳过开屏广告双重检测
 
+- [示例-0](https://m.gkd.li/81805625/350942a0-c8b2-4dbf-80f9-988522419a09)
+
 - [快照-0](https://i.gkd.li/snapshot/1708955039598)
 - [快照-1](https://i.gkd.li/snapshot/1708955435902)
 - [快照-2](https://i.gkd.li/i/14557046)
 - [快照-3](https://i.gkd.li/snapshot/1710170678710)
+- [快照-4](https://i.gkd.li/i/14601236)
 
 ## 功能类-关闭小红包卡片
 
