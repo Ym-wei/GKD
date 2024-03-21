@@ -8,6 +8,7 @@ export default defineAppConfig({
       key: 1,
       name: '功能类-微信开发扫码登录',
       desc: '微信开发扫码登录',
+      enable: true,
       rules: [
         {
           key: 1,
