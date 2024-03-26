@@ -1,6 +1,6 @@
 # 皮皮搞笑
 
-存在 5 规则组 - [cn.xiaochuankeji.zuiyouLite](/src/apps/cn.xiaochuankeji.zuiyouLite.ts)
+存在 6 规则组 - [cn.xiaochuankeji.zuiyouLite](/src/apps/cn.xiaochuankeji.zuiyouLite.ts)
 
 ## 开屏广告
 
@@ -25,8 +25,7 @@
 ## 分段广告-用户流动游戏广告
 
 - [快照-0](https://i.gkd.li/snapshot/1709189540108)
-- [快照-1](https://i.gkd.li/snapshot/1711429900501)
-- [快照-2](https://i.gkd.li/snapshot/1709189555602)
+- [快照-1](https://i.gkd.li/snapshot/1709189555602)
 
 ## 分段广告-流动直播广告
 
@@ -37,3 +36,8 @@
 
 - [快照-0](https://i.gkd.li/snapshot/1709216783100)
 - [快照-1](https://i.gkd.li/snapshot/1709216790063)
+
+## 分段广告-开始游戏
+
+- [快照-0](https://i.gkd.li/snapshot/1711429900501)
+- [快照-1](https://i.gkd.li/snapshot/1709189555602)

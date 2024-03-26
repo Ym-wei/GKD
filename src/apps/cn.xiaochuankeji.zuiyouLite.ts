@@ -92,11 +92,8 @@ export default defineAppConfig({
           key: 1,
           name: '点击关闭',
           matches:
-            '[text*="开始游戏" || text*="立即开玩"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
-          snapshotUrls: [
-            'https://i.gkd.li/snapshot/1709189540108',
-            'https://i.gkd.li/snapshot/1711429900501'
-          ],
+            '[text*="立即开玩"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
         },
         {
           key: 2,
@@ -148,5 +145,26 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      enable: true,
+      key: 8,
+      name: '分段广告-开始游戏',
+      rules: [
+        {
+          key: 1,
+          name: '点击关闭',
+          matches: '[text*="开始游戏"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1711429900501',
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '点击不感兴趣',
+          matches: '[vid="feedback_general_text"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1709189555602',
+        },
+      ],
+    },
   ],
+
 });
