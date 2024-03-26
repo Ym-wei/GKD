@@ -86,14 +86,17 @@ export default defineAppConfig({
     {
       enable: true,
       key: 5,
-      name: '分段广告-流动游戏广告',
+      name: '分段广告-用户流动游戏广告',
       rules: [
         {
           key: 1,
           name: '点击关闭',
           matches:
-            '[vid="post_activity_btn"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
+            '[text*="开始游戏" || text*="立即开玩"] <n LinearLayout -n [id="cn.xiaochuankeji.zuiyouLite:id/post_holder_member_view"] [vid="member_view_icon_right"]',
+          snapshotUrls: [
+            'https://i.gkd.li/snapshot/1709189540108',
+            'https://i.gkd.li/snapshot/1711429900501'
+          ],
         },
         {
           key: 2,

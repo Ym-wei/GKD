@@ -22,10 +22,11 @@
 - [快照-1](https://i.gkd.li/i/14430159)
 - [快照-2](https://i.gkd.li/i/14430159)
 
-## 分段广告-流动游戏广告
+## 分段广告-用户流动游戏广告
 
 - [快照-0](https://i.gkd.li/snapshot/1709189540108)
-- [快照-1](https://i.gkd.li/snapshot/1709189555602)
+- [快照-1](https://i.gkd.li/snapshot/1711429900501)
+- [快照-2](https://i.gkd.li/snapshot/1709189555602)
 
 ## 分段广告-流动直播广告
 
