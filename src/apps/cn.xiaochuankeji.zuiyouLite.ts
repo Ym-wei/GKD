@@ -91,7 +91,7 @@ export default defineAppConfig({
         {
           key: 1,
           name: '点击关闭',
-          matches: '[vid="post_activity_root"] -n [vid="post_holder_member_view"] [vid="member_view_icon_right"]',
+          matches: '[vid="post_activity_root"] - FrameLayout - LinearLayout - LinearLayout [vid="member_view_icon_right"]',
           snapshotUrls: 'https://i.gkd.li/snapshot/1709189540108',
         },
         {
