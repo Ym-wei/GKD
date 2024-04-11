@@ -18,5 +18,17 @@ export default defineAppConfig({
                 },
             ],
         },
+        {
+            key: 2,
+            name: '全屏广告-更新',
+            rules: [
+                {
+                    quickFind: true,
+                    activityIds: 'com.tencent.qt.module_appupdate.soft_update.impl.SoftUpdateConfirmActivity',
+                    matches: '[vid="btn_update_cancel"]',
+                    snapshotUrls: 'https://i.gkd.li/i/14941340',
+                },
+            ],
+        },
     ],
 });
