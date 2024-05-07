@@ -18,9 +18,13 @@ export default defineAppConfig({
           exampleUrls: 'https://m.gkd.li/81805625/96568fd2-beeb-4ba4-b407-3e058f763ec4',
           snapshotUrls: 'https://i.gkd.li/i/14600288',
         },
+        {
+          key: 2,
+          name: '打款金额',
+          matches: 'ViewGroup[childCount=3] > ViewGroup + ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/15229234',
+        },
       ],
     },
   ],
 });
-
-
