@@ -47,8 +47,6 @@ export default defineAppConfig({
                 {
                     key: 5,
                     name: '文字跳过',
-                    quickFind: true,
-                    activityIds: 'cn.xiaochuankeji.zuiyouLite.ui.splash.SplashActivity',
                     matches: '[text*="跳过"]',
                     exampleUrls: 'https://m.gkd.li/81805625/350942a0-c8b2-4dbf-80f9-988522419a09',
                     snapshotUrls: 'https://i.gkd.li/i/14601236',
