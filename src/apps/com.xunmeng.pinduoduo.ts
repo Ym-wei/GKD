@@ -24,6 +24,12 @@ export default defineAppConfig({
           matches: 'ViewGroup[childCount=3] > ViewGroup + ImageView',
           snapshotUrls: 'https://i.gkd.li/i/15229234',
         },
+        {
+          key: 3,
+          name: ' 单单优惠',
+          matches: 'ViewGroup[childCount=3] > ViewGroup - ViewGroup > ViewGroup > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/15495275',
+        },
       ],
     },
   ],
