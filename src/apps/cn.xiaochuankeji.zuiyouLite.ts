@@ -37,11 +37,12 @@ export default defineAppConfig({
                 {
                     key: 4,
                     name: '位置关闭2',
-                    matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/controllerView"]'],
-                    snapshotUrls: 'https://i.gkd.li/snapshot/1710170678710',
+                    matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/native_container"]'],
+                    snapshotUrls: 'https://i.gkd.li/i/15911033',
+                    activityIds: ['cn.xiaochuankeji.zuiyouLite.ui.splash.HotSplashActivity'],
                     position: {
-                        top: 188,
-                        left: 1300
+                        top: 169,
+                        left: 1285
                     }
                 },
                 {

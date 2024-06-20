@@ -11,7 +11,7 @@
 - [快照-0](https://i.gkd.li/snapshot/1708955039598)
 - [快照-1](https://i.gkd.li/snapshot/1708955435902)
 - [快照-2](https://i.gkd.li/i/14557046)
-- [快照-3](https://i.gkd.li/snapshot/1710170678710)
+- [快照-3](https://i.gkd.li/i/15911033)
 - [快照-4](https://i.gkd.li/i/14601236)
 
 ## 功能类-关闭小红包卡片
