@@ -40,6 +40,7 @@ export default defineAppConfig({
                     // matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/native_container"]'],
                     matches: ['FrameLayout[childCount=4] > FrameLayout + ImageView + View'],
                     snapshotUrls: 'https://i.gkd.li/i/15911033',
+                    actionDelay: 700,
                     activityIds: ['cn.xiaochuankeji.zuiyouLite.ui.splash.HotSplashActivity'],
                     // position: {
                     //     top: 169,
