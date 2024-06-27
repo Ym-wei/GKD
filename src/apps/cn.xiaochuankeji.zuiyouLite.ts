@@ -36,14 +36,15 @@ export default defineAppConfig({
                 },
                 {
                     key: 4,
-                    name: '位置关闭2',
-                    matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/native_container"]'],
+                    name: '广告跳过',
+                    // matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/native_container"]'],
+                    matches: ['FrameLayout[childCount=4] > FrameLayout + ImageView + View'],
                     snapshotUrls: 'https://i.gkd.li/i/15911033',
                     activityIds: ['cn.xiaochuankeji.zuiyouLite.ui.splash.HotSplashActivity'],
-                    position: {
-                        top: 169,
-                        left: 1285
-                    }
+                    // position: {
+                    //     top: 169,
+                    //     left: 1285
+                    // }
                 },
                 {
                     key: 5,
