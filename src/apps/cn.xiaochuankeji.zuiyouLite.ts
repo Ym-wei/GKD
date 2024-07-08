@@ -36,16 +36,10 @@ export default defineAppConfig({
                 },
                 {
                     key: 4,
-                    name: '广告跳过',
-                    // matches: ['[id="cn.xiaochuankeji.zuiyouLite:id/native_container"]'],
-                    matches: ['FrameLayout[childCount=4] > FrameLayout + ImageView + View'],
+                    name: '0708广告跳过',
+                    matches: ['View[width=140]'],
                     snapshotUrls: 'https://i.gkd.li/i/15911033',
-                    actionDelay: 700,
                     activityIds: ['cn.xiaochuankeji.zuiyouLite.ui.splash.HotSplashActivity'],
-                    // position: {
-                    //     top: 169,
-                    //     left: 1285
-                    // }
                 },
                 {
                     key: 5,
