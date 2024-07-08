@@ -37,9 +37,8 @@ export default defineAppConfig({
                 {
                     key: 4,
                     name: '0708广告跳过',
-                    matches: ['View[width=140]'],
+                    matches: ['View[width=140][height=140][clickable=true][top<180]'],
                     snapshotUrls: 'https://i.gkd.li/i/15911033',
-                    activityIds: ['cn.xiaochuankeji.zuiyouLite.ui.splash.HotSplashActivity'],
                 },
                 {
                     key: 5,
