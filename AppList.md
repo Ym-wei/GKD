@@ -2,6 +2,7 @@
 
 | 名称 | ID | 规则组 |
 | - | - | - |
+| 海马下载 | [com.haimabt.download](/docs/com.haimabt.download.md) | 1 |
 | 米家 | [com.xiaomi.smarthome](/docs/com.xiaomi.smarthome.md) | 1 |
 | 拼多多 | [com.xunmeng.pinduoduo](/docs/com.xunmeng.pinduoduo.md) | 1 |
 | 皮皮搞笑 | [cn.xiaochuankeji.zuiyouLite](/docs/cn.xiaochuankeji.zuiyouLite.md) | 6 |
