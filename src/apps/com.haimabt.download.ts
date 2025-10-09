@@ -11,10 +11,10 @@ export default defineAppConfig({
             rules: [
                 {
                     activityIds: 'com.e4a.runtime.android.mainActivity',
-                    matches: 'ViewGroup[childCount=3]',
+                    matches: 'FrameLayout[childCount=2]',
                     position: {
-                        top: 717,
-                        left: 2419
+                        top: 690,
+                        left: 2060
                     }
                 },
             ],
