@@ -40,5 +40,30 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 3,
+      name: '功能类-微信广告2',
+      desc: '微信广告',
+      enable: true,
+      rules: [
+        {
+          key: 1,
+          snapshotUrls: 'https://i.gkd.li/snapshot/1760001612361',
+          matches: '[id="com.tencent.mm:id/kbe"]',
+          position: {
+            top: 607,
+            left: 967
+          }
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '点击关闭',
+          activityIds: 'com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI',
+          matches: '[vid="n2m"]',
+          snapshotUrls: 'https://i.gkd.li/i/19641780',
+        },
+      ],
+    },
   ],
 });

@@ -1,6 +1,6 @@
 # 微信
 
-存在 2 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 3 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 功能类-微信开发扫码登录
 
@@ -13,4 +13,11 @@
 微信广告
 
 - [快照-0](https://i.gkd.li/i/19641753)
+- [快照-1](https://i.gkd.li/i/19641780)
+
+## 功能类-微信广告2
+
+微信广告
+
+- [快照-0](https://i.gkd.li/snapshot/1760001612361)
 - [快照-1](https://i.gkd.li/i/19641780)
