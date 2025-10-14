@@ -42,28 +42,53 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '功能类-微信广告2',
-      desc: '微信广告',
-      enable: true,
+      name: '功能类-扫码确认',
+      desc: '小程序登录确认',
       rules: [
         {
-          key: 1,
-          snapshotUrls: 'https://i.gkd.li/snapshot/1760001612361',
-          matches: '[id="com.tencent.mm:id/kbe"]',
-          position: {
-            top: 607,
-            left: 967
-          }
-        },
-        {
-          key: 2,
-          preKeys: 1,
-          name: '点击关闭',
-          activityIds: 'com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI',
-          matches: '[vid="n2m"]',
-          snapshotUrls: 'https://i.gkd.li/i/19641780',
+          activityIds: 'com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI',
+          matches: '[id="js_confirm_login"]',
+          snapshotUrls: 'https://i.gkd.li/i/22895473',
         },
       ],
     },
+    {
+      key: 4,
+      name: '功能类-文件登录',
+      desc: '文件登录',
+      rules: [
+        {
+          activityIds: 'com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI',
+          matches: '[id="com.tencent.mm:id/pjb"]',
+          snapshotUrls: 'https://i.gkd.li/i/22895469',
+        },
+      ],
+    },
+
+    // {
+    //   key: 5,
+    //   name: '功能类-微信广告2',
+    //   desc: '微信广告',
+    //   enable: true,
+    //   rules: [
+    //     {
+    //       key: 1,
+    //       snapshotUrls: 'https://i.gkd.li/snapshot/1760001612361',
+    //       matches: '[id="com.tencent.mm:id/kbe"]',
+    //       position: {
+    //         top: 607,
+    //         left: 967
+    //       }
+    //     },
+    //     {
+    //       key: 2,
+    //       preKeys: 1,
+    //       name: '点击关闭',
+    //       activityIds: 'com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI',
+    //       matches: '[vid="n2m"]',
+    //       snapshotUrls: 'https://i.gkd.li/i/19641780',
+    //     },
+    //   ],
+    // },
   ],
 });

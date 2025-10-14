@@ -12,9 +12,9 @@
 https://raw.githubusercontent.com/Ym-wei/GKD/main/dist/ym.json5
 ```
 
-当前版本: v46
+当前版本: v47
 
-当前订阅文件已适配 10 个 APP, 共有 18 规则组
+当前订阅文件已适配 11 个 APP, 共有 20 规则组
 
 查看 [适配 APP 列表](./AppList.md)
 
@@ -30,4 +30,4 @@ https://raw.githubusercontent.com/Ym-wei/GKD/main/dist/ym.json5
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=46)
+![img](https://contrib.rocks/image?repo=AIsouler/GKD_subscription&_v=47)
