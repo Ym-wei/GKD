@@ -1,6 +1,6 @@
 # 微信
 
-存在 4 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 5 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 功能类-微信开发扫码登录
 
@@ -19,10 +19,16 @@
 
 小程序登录确认
 
-- [快照-0](https://i.gkd.li/i/22895473)
+- [快照-0](https://i.gkd.li/i/23181165)
 
 ## 功能类-文件登录
 
 文件登录
 
 - [快照-0](https://i.gkd.li/i/22895469)
+
+## 功能类-我知道了
+
+我知道了
+
+- [快照-0](https://i.gkd.li/i/23181162)

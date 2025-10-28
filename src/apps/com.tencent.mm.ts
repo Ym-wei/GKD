@@ -47,8 +47,8 @@ export default defineAppConfig({
       rules: [
         {
           activityIds: 'com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI',
-          matches: '[id="js_confirm_login"]',
-          snapshotUrls: 'https://i.gkd.li/i/22895473',
+          matches: '[text="登录"]',
+          snapshotUrls: 'https://i.gkd.li/i/23181165',
         },
       ],
     },
@@ -61,6 +61,18 @@ export default defineAppConfig({
           activityIds: 'com.tencent.mm.plugin.webwx.ui.ExtDeviceWXLoginUI',
           matches: '[id="com.tencent.mm:id/pjb"]',
           snapshotUrls: 'https://i.gkd.li/i/22895469',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: '功能类-我知道了',
+      desc: '我知道了',
+      rules: [
+        {
+          activityIds: 'com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI',
+          matches: '[text="我知道了"]',
+          snapshotUrls: 'https://i.gkd.li/i/23181162',
         },
       ],
     },
